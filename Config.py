@@ -25,8 +25,8 @@ class Messages():
         
         "**Commmands**\n__/ForceSubscribe - Per ottenere le impostazioni correnti.\n/ForceSubscribe no/off/disable - Per disattivare ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - Per attivare e configurare il canle.\n/ForceSubscribe clear - Per smutare tutti gli utenti che ho mutato.__",
         
-       "**Devloped By @TgxBotz_Update**" 
-       "**Translate in italian By @HeidinotKlum**"
+       "**Devloped By @TgxBotz_Update
+       Translate in italian By @HeidinotKlum**"
 
       ]
       START_MSG = "**Hey [{}](tg://user?id={})**\n__Posso obbligare i membri a unirsi a un canale specifico prima di scrivere messaggi nel gruppo.\nScopri di più su /help__"
