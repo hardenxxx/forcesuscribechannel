@@ -54,12 +54,12 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              " {} , Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone qui sotto 'ISCRIVITI AL MIO CANALE' e dopo premi il pulsante 'FATTO'".format(message.from_user.mention, channel, channel),
+              " {}  Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone qui sotto 'ISCRIVITI AL MIO CANALE' dopo premi il pulsante 'FATTO'".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ISCRIVITI AL MIO CANALE", url=channel_url)
+                    InlineKeyboardButton("✍️ ISCRIVITI AL MIO CANALE", url=channel_url)
                 ],
                 [
                     InlineKeyboardButton("👉 FATTO 👈", callback_data="onUnMuteRequest")
