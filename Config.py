@@ -21,7 +21,7 @@ class Messages():
 
         "**Force Subscribe**\n__Forza i membri del gruppo a unirsi a un canale specifico prima di inviare messaggi nel gruppo.\nI Se non si sono iscritti al tuo canale, disattiverò l'audio degli utenti e dirò loro di unirsi al canale e poter scrivere nel gruppo premendo un pulsante.__",
         
-        "**Setup**\n__Prima di tutto aggiungimi nel gruppo come amministratore con permesso di ban utenti e nel canale come amministratore.\nNote: Solo il creatore del gruppo può configurarmi e lascerò la chat se non sono un amministratore nella chat..__",
+        "**Setup**\n__Prima di tutto aggiungimi nel gruppo come amministratore con permesso di ban utenti e nel canale come amministratore.\nNote: Solo il creatore del gruppo può configurarmi e lascerò la chat se non sono un amministratore nella chat.__",
         
         "**Commmands**\n__/ForceSubscribe - Per ottenere le impostazioni correnti.\n/ForceSubscribe no/off/disable - Per disattivare ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - Per attivare e configurare il canle.\n/ForceSubscribe clear - Per smutare tutti gli utenti che ho mutato.__",
         
