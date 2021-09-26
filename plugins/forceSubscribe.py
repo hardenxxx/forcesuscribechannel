@@ -25,7 +25,7 @@ def _onUnMuteRequest(client, cb):
             if cb.message.reply_to_message.from_user.id == user_id:
               cb.message.delete()
           except UserNotParticipant:
-            client.answer_callback_query(cb.id, text="❗ Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone di sotto e poi premi il pulsante 'FATTO' per continuare a scrivere nel gruppo.", show_alert=True)
+            client.answer_callback_query(cb.id, text="❗ Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone qui sotto e poi premi il pulsante 'FATTO'.", show_alert=True)
       else:
         client.answer_callback_query(cb.id, text="❗ Sei mutato dagli amministratori per altri motivi.", show_alert=True)
     else:
@@ -54,7 +54,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              " {} , Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone di sotto 'ISCRIVITI AL MIO CANALE' e dopo premi il pulsante 'FATTO' per continuare a scrivere nel gruppo".format(message.from_user.mention, channel, channel),
+              " {} , Non sei ancora iscritto al mio canale. Per favore, unisciti usando il bottone qui sotto 'ISCRIVITI AL MIO CANALE' e dopo premi il pulsante 'FATTO'".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
