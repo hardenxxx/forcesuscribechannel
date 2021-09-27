@@ -23,8 +23,8 @@ class Messages():
         
         "**Setup**\n__Prima di tutto aggiungimi nel gruppo come amministratore con permesso di ban utenti e nel canale come amministratore.\nNote: Solo il creatore del gruppo può configurarmi e lascerò la chat se non sono un amministratore nella chat.__",
         
-        "**Commmandi**\n__/ForceSubscribe - Per ottenere le impostazioni correnti.\n/ForceSubscribe no/off/disable - Per spegnere ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - Per accendere e impostare il canale.\n/ForceSubscribe clear - Per smutare tutti i membri mutati da me.__",
+        "**Comandi**\n__/ForceSubscribe - Per ottenere le impostazioni correnti.\n/ForceSubscribe no/off/disable - Per spegnere ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - Per accendere e impostare il canale.\n/ForceSubscribe clear - Per smutare tutti i membri mutati da me.__",
         
-       "**Devloped By @TgxBotz_Update** **Translate by @luiio**"
+       "**Devloped By @TgxBotz_Update** **Translate By @luiio**"
       ]
-      START_MSG = "**CIAO[{}](tg://user?id={})**\n__Posso obbligare i membri a unirsi a un canale specifico prima di scrivere messaggi nel gruppo.\nScopri di più usando/help__"
+      START_MSG = "**Ciao[{}](tg://user?id={})**\n__Posso obbligare i membri a unirsi a un canale specifico prima di scrivere messaggi nel gruppo.\nScopri di più usando /help__"
