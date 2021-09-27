@@ -19,12 +19,12 @@ class Messages():
       HELP_MSG = [
         ".",
 
-        "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
+        "**Force Subscribe**\n__Forza i membri del gruppo a unirsi a un canale specifico prima di inviare messaggi nel gruppo.\nSe non sono iscritti al tuo canale, muterò l'utente e dirò di unirsi al canale e lo smuterò premendo un pulsante.__",
         
-        "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
+        "**Setup**\n__Prima di tutto aggiungimi nel gruppo come amministratore con permesso di ban utenti e nel canale come amministratore.\nNote: Solo il creatore del gruppo può configurarmi e lascerò la chat se non sono un amministratore nella chat.__",
         
-        "**Commmands**\n__/ForceSubscribe - To get the current settings.\n/ForceSubscribe no/off/disable - To turn of ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - To turn on and setup the channel.\n/ForceSubscribe clear - To unmute all members who muted by me.__",
+        "**Commmandi**\n__/ForceSubscribe - Per ottenere le impostazioni correnti.\n/ForceSubscribe no/off/disable - Per spegnere ForceSubscribe.\n/ForceSubscribe {channel username or channel ID} - Per accendere e impostare il canale.\n/ForceSubscribe clear - Per smutare tutti i membri mutati da me.__",
         
-       "**Devloped By @TgxBotz_Update**"
+       "**Devloped By @TgxBotz_Update** **Translate by @luiio**"
       ]
-      START_MSG = "**Hey [{}](tg://user?id={})**\n__I can force members to join a specific channel before writing messages in the group.\nLearn more at /help__"
+      START_MSG = "**CIAO[{}](tg://user?id={})**\n__Posso obbligare i membri a unirsi a un canale specifico prima di scrivere messaggi nel gruppo.\nScopri di più usando/help__"
